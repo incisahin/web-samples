@@ -21,7 +21,7 @@
 
 			width: 100%;
 			height: 150px;
-			background-color: #BACEE3;
+			background-image: url(img/üst-kısım2.jpg);
 			padding-top: 29px;
 		}
 
@@ -80,7 +80,7 @@
 
 		nav ul li {
 			display: inline-block;
-			background-color: #BACEE3;
+
 			padding: 25px 15px;
 			float: left;
 		}
@@ -96,21 +96,23 @@
 		}
 
 		main {
-			border: 1px solid black;
+			border: 1px solid rebeccapurple;
 			width: 100%;
 			height: 2px;
 		}
 
 		#sablonlar {
-			border: 1px solid black;
+			border: 1px solid rebeccapurple;
 			width: 100%;
 			height: 600px;
 			margin-top: 50px;
-			background-color: #BACEE3;
+			background-image: url(img/arka-fon1.webp);
+			background-size: cover;
 		}
 
 		.sablon {
-			border: 1px solid black;
+			border: 10px solid rebeccapurple;
+			border-radius: 25px;
 			width: 25%;
 			height: 150px !important;
 			margin-top: 80px;
@@ -121,6 +123,7 @@
 		.sablon img {
 			width: 100%;
 			height: 100% !important;
+			border-radius: 25px;
 
 		}
 
@@ -173,14 +176,40 @@
 			display: flex;
 			flex-direction: column;
 		}
-		footer{
+
+		footer {
 			border: 1px solid black;
 			width: 100%;
 			height: 500px;
-			background-color: #BACEE3; 
-			margin-top: 1543px;
+			background-color: #BACEE3;
+			margin-top: 1850px;
 		}
-		
+
+		input,
+		textarea {
+			display: block;
+			width: 100%;
+			padding: .375rem .75rem;
+			font-size: 1rem;
+			line-height: 1.5;
+			color: #495057;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 1px solid #ced4da;
+			border-radius: .25rem;
+			transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		}
+
+		.form-content {
+			display: flex;
+			justify-content: space-around;
+			align-items: flex-start;
+			margin: 15px;
+		}
+
+		label {
+			font-size: 20px;
+		}
 	</style>
 	<header>
 		<div id="hizala">
@@ -207,8 +236,8 @@
 		<div id="sablonlar">
 
 			<div class="sablon">
-				<img class="yanyana" src="./img/vodafone.jpg">
-				<div class="yanyana" id="button"><a href="./forms/vodafone-form.html">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/vodafone1.png">
+				<div class="yanyana" id="button"><a href="./forms/vodafone1-form.html">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
 				<img class="yanyana" src="./img/turktelekom.jpg">
@@ -219,11 +248,11 @@
 				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/turkcell.jpg">
+				<img class="yanyana" src="./img/turkcel1.png">
 				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/Millenicom.png">
+				<img class="yanyana" src="./img/milenicom1.png">
 				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
@@ -241,19 +270,47 @@
 			</div>
 			<div class="kampanya">
 				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart2.PNG" alt="ttnet2">
-				</div>
-			<div class="kampanya">
-				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart3.PNG" alt="ttnet3">	
 			</div>
 			<div class="kampanya">
-				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart4.PNG" alt="ttnet4">	
+				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart3.PNG" alt="ttnet3">
+			</div>
+			<div class="kampanya">
+				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart4.PNG" alt="ttnet4">
 			</div>
 
 		</div>
-</main>
-<footer>
-	
-</footer>
-	
-	</body>
-	</html>
+		<div class="form-div" style="display: flex; justify-content: space-around;">
+			<div id="secilenKampanya" style="width: 45%; background-color: darkcyan;">
+
+			</div>
+			<div style="width: 45%; background-color: darkmagenta;">
+				<form
+					style="display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
+					<div class="form-content">
+						<label for="name">Adiniz:</label>
+						<input type=" text" id="name" name="fname" placeholder="Adınız:"><br>
+					</div>
+					<div class="form-content">
+						<label for="lname">Soyadınız:</label>
+						<input type="text" id="lname" name="lname" placeholder="Soyadınız:">
+					</div>
+					<div class="form-content">
+						<label for="fphone">Telefon:</label>
+						<input type="text" id="fphone" name="fphone" placeholder="Telefon:"><br>
+					</div>
+					<div class="form-content">
+						<label for="adress">Adresiniz:</label>
+						<textarea cols="30" rows="5" type="text" id="address" name="address" placeholder="Adresiniz:">
+						</textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+
+</body>
+
+</html>
