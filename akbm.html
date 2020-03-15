@@ -2,8 +2,13 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
 	<title>Akbim Yazılım</title>
+
+	<meta charset="utf-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="./forms/js/index.js"></script>
+
 </head>
 
 <body>
@@ -112,7 +117,7 @@
 
 		.sablon {
 			border: 10px solid rebeccapurple;
-			border-radius: 25px;
+			border-radius: 54px;
 			width: 25%;
 			height: 150px !important;
 			margin-top: 80px;
@@ -147,21 +152,22 @@
 			text-decoration: none;
 			margin-top: 50px !important;
 			line-height: 40px;
+			color: black;
 
 		}
 
 		#button:hover {
-			background-color: black;
+			background-color: rgb(34, 106, 139);
 
 		}
 
 		#button:hover a {
-			color: #F34e3a;
+			color: rgb(0, 0, 0);
 
 		}
 
 		.kampanyalar {
-			border: 1px solid black;
+			border: 1px solid rebeccapurple;
 			width: 100%;
 			height: 800px;
 			margin-top: 50px;
@@ -182,7 +188,7 @@
 			width: 100%;
 			height: 500px;
 			background-color: #BACEE3;
-			margin-top: 1850px;
+			margin-top: 2028px;
 		}
 
 		input,
@@ -202,13 +208,61 @@
 
 		.form-content {
 			display: flex;
-			justify-content: space-around;
-			align-items: flex-start;
+			flex-direction: row;
+			justify-content: flex-start;
 			margin: 15px;
+		}
+
+		.form-label {
+			display: flex;
+			justify-content: flex-end;
+			width: 30%;
+		}
+
+		.form-input {
+			display: flex;
+			justify-content: flex-start;
+			width: 40%;
 		}
 
 		label {
 			font-size: 20px;
+		}
+
+		.form-header {
+			display: flex;
+			justify-content: center;
+		}
+
+		.basvuru-form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			margin-top: 5px;
+		}
+
+		.btn {
+			display: inline-block;
+			font-weight: 400;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			border: 1px solid transparent;
+			padding: .375rem .75rem;
+			font-size: 1rem;
+			line-height: 1.5;
+			border-radius: .25rem;
+			transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		}
+
+		.btn-success {
+			color: #fff;
+			background-color: #220d96;
+			border-color: #220d96;
 		}
 	</style>
 	<header>
@@ -236,73 +290,99 @@
 		<div id="sablonlar">
 
 			<div class="sablon">
-				<img class="yanyana" src="./img/vodafone1.png">
-				<div class="yanyana" id="button"><a href="./forms/vodafone1-form.html">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/vodafone/logo.png">
+				<div class="yanyana" id="button"><a href="#kampanyalar">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/turktelekom.jpg">
-				<div class="yanyana" id="button"><a href="">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/ttnet/logo.jpg">
+				<div class="yanyana" id="button"><a href="#kampanyalar">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/d-smartt.jpg">
-				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/d-smart/logo.jpg">
+				<div class="yanyana" id="button"><a href="#kampanyalar">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/turkcel1.png">
-				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/turkcell/logo.png">
+				<div class="yanyana" id="button"><a href="#kampanyalar">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/milenicom1.png">
-				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/millenicom/logo.png">
+				<div class="yanyana" id="button"><a href="#kampanyalar">Hemen Başvur!</a></div>
 			</div>
 			<div class="sablon">
-				<img class="yanyana" src="./img/turktelekom.jpg">
-				<div class="yanyana" id="button"><a href="#">Hemen Başvur!</a></div>
+				<img class="yanyana" src="./img/ttnet/logo.jpg">
+				<div class="yanyana" id="button"><a href="#kampanyalar">Hemen Başvur!</a></div>
 			</div>
 
 		</div>
 
-		<div class="kampanyalar">
-			<div class="kampanya">
-				<!--div style="height: 30%; background-color: red; margin-top: 55px;"></div>
+		<section id="kampanyalar">
+			<div class="kampanyalar">
+				<div class="kampanya">
+					<!--div style="height: 30%; background-color: red; margin-top: 55px;"></div>
 				<div style="height: 60%; background-color: #F34e3a;"></div-->
-				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart1.PNG" alt="ttnet1">
-			</div>
-			<div class="kampanya">
-				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart2.PNG" alt="ttnet2">
-			</div>
-			<div class="kampanya">
-				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart3.PNG" alt="ttnet3">
-			</div>
-			<div class="kampanya">
-				<img style="height: 90%; margin-top: 25px;" src="./img/d-smart4.PNG" alt="ttnet4">
-			</div>
-
-		</div>
-		<div class="form-div" style="display: flex; justify-content: space-around;">
-			<div id="secilenKampanya" style="width: 45%; background-color: darkcyan;">
+					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/1.PNG" alt="ttnet1">
+				</div>
+				<div class="kampanya">
+					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/2.PNG" alt="ttnet2">
+				</div>
+				<div class="kampanya">
+					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/3.PNG" alt="ttnet3">
+				</div>
+				<div class="kampanya">
+					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/4.PNG" alt="ttnet4">
+				</div>
 
 			</div>
-			<div style="width: 45%; background-color: darkmagenta;">
-				<form
-					style="display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
-					<div class="form-content">
-						<label for="name">Adiniz:</label>
-						<input type=" text" id="name" name="fname" placeholder="Adınız:"><br>
+		</section>
+		<div class="form-div"
+			style="display: flex; justify-content: space-around; background-color: #c9dcdc; height: 500px;">
+			<div id="secilenKampanya" style="width: 45%;">
+
+			</div>
+			<div style="width: 45%;">
+				<form class="basvuru-form">
+					<div class="form-header">
+						<h1>Başvuru formu</h1>
 					</div>
 					<div class="form-content">
-						<label for="lname">Soyadınız:</label>
-						<input type="text" id="lname" name="lname" placeholder="Soyadınız:">
+						<div class="form-label">
+							<label for="name">Adınız:</label>
+						</div>
+						<div class="form-input">
+							<input type=" text" id="name" name="fname" placeholder="Adınız:">
+						</div>
 					</div>
 					<div class="form-content">
-						<label for="fphone">Telefon:</label>
-						<input type="text" id="fphone" name="fphone" placeholder="Telefon:"><br>
+						<div class="form-label">
+							<label for="lname">Soyadınız:</label>
+						</div>
+						<div class="form-input">
+							<input type="text" id="lname" name="lname" placeholder="Soyadınız:">
+						</div>
 					</div>
 					<div class="form-content">
-						<label for="adress">Adresiniz:</label>
-						<textarea cols="30" rows="5" type="text" id="address" name="address" placeholder="Adresiniz:">
+						<div class="form-label">
+							<label for="fphone">Telefon:</label>
+						</div>
+						<div class="form-input">
+							<input type="text" id="fphone" name="fphone" placeholder="Telefon:">
+						</div>
+					</div>
+					<div class="form-content">
+						<div class="form-label">
+							<label for="adress">Adresiniz:</label>
+						</div>
+						<div class="form-input">
+							<textarea cols="30" rows="5" type="text" id="address" name="address"
+								placeholder="Adresiniz:">
 						</textarea>
+						</div>
 					</div>
+					<div style="display: flex; justify-content: center;">
+						<button type="button" class="btn btn-success">Hemen Başvur</button>
+					</div>
+
 				</form>
 			</div>
 		</div>
