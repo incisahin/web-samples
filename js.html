@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+
+		var ad="merhabaaa"
+		var sayi="100"
+		document.write(ad);
+		document.write("<br>")
+		document.write(sayi);
+		document.write("<br>");
+
+		var ad,soyad;
+		ad="emrah";
+		soyad="yuksel";
+		document.write("benim adim:"+ad+" soyadim:"+soyad);
+		document.write("<br>")
+
+		var sayi1,sayi2;
+		sayi1=10;
+		sayi2=33;
+		document.write("1.sayimiz: "+sayi1+" 2.sayimiz"+sayi2);
+		document.write("<br>");
+		var numara;
+		numara=11;
+		document.write(numara);
+		if (numara>=20) {
+			document.write("<br>");
+			document.write("20'den büyük");
+		} else{
+			document.write("<br>");
+			document.write("20'den büyük değil");
+		}
+
+		document.write("<hr>");
+		document.write("<hr>");
+		 var sayi1=prompt("lütfen bir sayı giriniz...");
+		 var sayi2=prompt("lütfen bir sayı daha giriniz");
+
+		 if (sayi1>sayi2) {
+
+		 	alert("ilk girdiğiniz sayı daha büyük");
+		 } else{
+		 	alert("ikinci girdiğiniz sayı daha büyük");
+		 }
+
+		 document.write("<br>");
+
+		 var renk=prompt("kırmızı için :1 yeşil için :2 mavi  için :3");//1.satır
+		 var yazi=prompt("yazıyı giriniz"); //2.satır
+
+         switch(renk){
+         	case "1":
+         	document.write("<font color='red'>"+yazi+"</font>");
+         }
+
+
+
+         //for(başlangıç değeri,koşul,artış miktarı);
+         var sayı=prompt("kaç kere dönsün :");
+         var txt=prompt("metin giriniz.");
+
+         for (var dd=1; dd<sayı; dd++ ) {
+         	document.write(txt);
+         	document.write("<br>");
+         	
+         }
+
+        document.write("<br>");
+        // while(şart)
+        var toplam=0;
+        var say=1;
+        var sayi;
+        while(sayi!=0){
+        	sayi=prompt(say+."sayı giriniz :");
+        	toplam=toplam+number(sayi);
+        	say++
+        }
+        document.write(say+"sayının toplamı :"+toplam);
+
+
+
+
+
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

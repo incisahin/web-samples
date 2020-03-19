@@ -1,0 +1,5 @@
+User-Agent: Googlebot
+Allow: *.css
+Allow: *.js
+
+Sitemap: https://bulut-santral.akbimbilgisayar.com/sitemap.xml
