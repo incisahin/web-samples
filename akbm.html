@@ -6,6 +6,7 @@
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./forms/js/index.js"></script>
@@ -118,7 +119,7 @@
 		}
 
 		.sablon {
-			border: 10px solid rebeccapurple;
+
 			border-radius: 54px;
 			width: 25%;
 			height: 150px !important;
@@ -171,7 +172,7 @@
 		.kampanyalar {
 			border: 1px solid rebeccapurple;
 			width: 100%;
-			height: 800px;
+			height: 660px;
 			margin-top: 50px;
 			background-color: #BACEE3;
 			display: flex;
@@ -265,6 +266,51 @@
 			border: 1px solid black;
 			height: 600px;
 		}
+
+		.card-body {
+			border-top: 20px solid blue;
+		}
+
+		.bigpackage {
+			color: blue;
+			font-size: 15px;
+		}
+
+		.bigPackage .bubbleButton {
+			position: absolute;
+			right: 2rem;
+			top: -2rem;
+		}
+
+		.bubbleButton {
+			transition: transform .2s, -webkit-transform .2s;
+			z-index: 10;
+			cursor: default;
+			color: #fff;
+			border-top-right-radius: 50%;
+			border-top-left-radius: 50%;
+			border-bottom-right-radius: 50%;
+			width: 6.25rem;
+			text-align: center;
+			height: 6.25rem;
+			display: flex;
+			-webkit-box-align: center;
+			justify-content: center;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			flex-direction: column;
+		}
+
+		.kampanya-item-detail {
+			display: flex;
+			justify-content: flex-start;
+
+		}
+
+		.icon-div {
+			align-items: center;
+			margin-right: 5px;
+		}
 	</style>
 	<header>
 		<div id="hizala">
@@ -320,31 +366,290 @@
 		<section id="kampanyalar">
 			<div class="kampanyalar">
 				<div class="kampanya">
-					<!--div style="height: 30%; background-color: red; margin-top: 55px;"></div>
-				<div style="height: 60%; background-color: #F34e3a;"></div-->
-					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/1.PNG" alt="ttnet1">
-				</div>
-				<div class="kampanya">
-					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/2.PNG" alt="ttnet2">
-				</div>
-				<div class="kampanya">
-					<img style="height: 90%; margin-top: 25px;" src="./img/d-smart/3.PNG" alt="ttnet3">
+					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background-color: blue;">
+									<!---->
+									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>D-SmartNet</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">40 GB Kota</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Aktivasyon Ücreti Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Evde Kurulum Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
 				</div>
 				<div class="kampanya">
 					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
-						<img src="..." class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<hr />
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk
-								of
-								the card's content.</p>
-							<p>20 GB 110tl</p>
-							<hr />
-							<p>jhfdsaewrghlkjhgfd</p>
-							<hr />
-							<p>jhfdsaewrghlkjhgfd</p>
-							<hr />
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background-color: blue;">
+									<!---->
+									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>D-SmartNet</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">40 GB Kota</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Aktivasyon Ücreti Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Evde Kurulum Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background-color: blue;">
+									<!---->
+									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>D-SmartNet</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">40 GB Kota</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Aktivasyon Ücreti Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Evde Kurulum Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background-color: blue;">
+									<!---->
+									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>D-SmartNet</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">40 GB Kota</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Aktivasyon Ücreti Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Evde Kurulum Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid blue;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
 						</div>
 					</div>
 				</div>
