@@ -1,0 +1,307 @@
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+
+			width: 100%;
+			height: 100px;
+			/*background-image: url(img/üst-kısım2.jpg);
+			padding-top: 29px*/
+			background: lightgray;
+		}
+
+		#hizala {
+
+			width: 75%;
+			height: auto;
+			margin: auto;
+			margin-top: 25px;
+		}
+
+		#solkisim {
+
+			width: 30%;
+			height: 100px;
+			float: left;
+		}
+
+		#solkisim a {
+			color: #00225a;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: 600;
+		}
+
+		#solkisim h2 {
+			padding: 0;
+			margin: 0;
+
+		}
+
+		#solkisim p {
+			color: #00225a;
+			padding: 0;
+			margin: 0;
+			font-size: 16px;
+			font-style: italic;
+			font-weight: 600;
+		}
+
+		#sagkisim {
+
+			width: 70%;
+			height: 100px;
+			float: left;
+		}
+
+		nav {
+			float: right;
+			padding: 8px;
+		}
+
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		nav ul li {
+			display: inline-block;
+
+			padding: 25px 15px;
+			float: left;
+		}
+
+		nav ul li a {
+			color: #00225a;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: 600;
+		}
+
+		nav ul li a:hover {
+			color: blue;
+		}
+
+		main {
+			width: 100%;
+			height: auto;
+		}
+
+		#sablonlar {
+			width: 100%;
+			height: 600px;
+			background-size: cover;
+		}
+
+		.sablon {
+			border: 1px solid black;
+			border-radius: 50px;
+			width: 25%;
+			height: 150px !important;
+			margin-top: 78px;
+			margin-left: 5%;
+			display: inline-block;
+		}
+
+		.sablon img {
+			width: 100%;
+			height: 100% !important;
+			border-radius: 25px;
+			background-size: cover;
+
+		}
+
+		#button {
+			padding: 12px 44px;
+			border-radius: 50px;
+			font-size: 15px;
+			font-family: "Rajdhani", sans-serif;
+			font-weight: 500;
+			color: #fff;
+			-webkit-transition: 0.5s;
+			transition: 0.5s;
+			text-transform: uppercase;
+			text-align: center;
+
+		}
+
+		#button a {
+
+			font-size: 20px;
+			text-decoration: none;
+			margin-top: 50px !important;
+			line-height: 40px;
+			color: black;
+
+		}
+
+		#button:hover {
+			/*background-color: rgb(34, 106, 139);*/
+			text-decoration: underline;
+
+		}
+
+		.kampanyalar {
+			width: 100%;
+			height: auto;
+			margin-top: 50px;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.kampanya {
+			width: 20%;
+			height: 90%;
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 20px;
+		}
+
+
+
+		input,
+		textarea {
+			display: block;
+			width: 100%;
+			padding: .375rem .75rem;
+			font-size: 1rem;
+			line-height: 1.5;
+			color: #495057;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 1px solid #ced4da;
+			border-radius: .25rem;
+			transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		}
+
+		.form-content {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			margin: 15px;
+		}
+
+		.form-label {
+			display: flex;
+			justify-content: flex-end;
+			width: 30%;
+		}
+
+		.form-input {
+			display: flex;
+			justify-content: flex-start;
+			width: 40%;
+		}
+
+		label {
+			font-size: 20px;
+		}
+
+		.form-header {
+			display: flex;
+			justify-content: center;
+		}
+
+		.basvuru-form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			margin-top: 5px;
+		}
+
+		.btn {
+			display: inline-block;
+			font-weight: 400;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			border: 1px solid transparent;
+			padding: .375rem .75rem;
+			font-size: 1rem;
+			line-height: 1.5;
+			border-radius: .25rem;
+			transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		}
+
+		.btn-success {
+			color: #fff;
+			background-color: #220d96;
+			border-color: #220d96;
+		}
+
+		.en-cok-kullanilanlar {
+			border: 1px solid black;
+			height: 600px;
+		}
+
+		.card-body {
+			border-top: 20px solid #003659;
+		}
+
+		.bigpackage {
+			color: #0b99a7;
+			font-size: 15px;
+		}
+
+		.bigPackage .bubbleButton {
+			position: absolute;
+			right: 2rem;
+			top: -2rem;
+		}
+
+		.bubbleButton {
+			transition: transform .2s, -webkit-transform .2s;
+			z-index: 10;
+			cursor: default;
+			color: #fff;
+			border-top-right-radius: 50%;
+			border-top-left-radius: 50%;
+			border-bottom-right-radius: 50%;
+			width: 6.25rem;
+			text-align: center;
+			height: 6.25rem;
+			display: flex;
+			-webkit-box-align: center;
+			justify-content: center;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			flex-direction: column;
+		}
+
+		.kampanya-item-detail {
+			display: flex;
+			justify-content: flex-start;
+
+		}
+
+		.icon-div {
+			align-items: center;
+			margin-right: 5px;
+		}
+
+		.en-cok-kullanilanlar {
+
+			width: 100%;
+			height: 450px;
+			background-color: #c9dcdc;
+		}
+
+		footer {
+			border: 1px solid rebeccapurple;
+			width: 100%;
+			height: 400px;
+
+		}
+	
