@@ -28,9 +28,10 @@
 		header {
 
 			width: 100%;
-			height: 150px;
-			background-image: url(img/üst-kısım2.jpg);
-			padding-top: 29px;
+			height: 100px;
+			/*background-image: url(img/üst-kısım2.jpg);
+			padding-top: 29px*/
+			background: lightgray;
 		}
 
 		#hizala {
@@ -49,9 +50,10 @@
 		}
 
 		#solkisim a {
-			color: #8E83BB;
+			color: #00225a;
 			text-decoration: none;
 			font-size: 20px;
+			font-weight: 600;
 		}
 
 		#solkisim h2 {
@@ -61,11 +63,12 @@
 		}
 
 		#solkisim p {
-			color: #8E83BB;
+			color: #00225a;
 			padding: 0;
 			margin: 0;
 			font-size: 16px;
 			font-style: italic;
+			font-weight: 600;
 		}
 
 		#sagkisim {
@@ -94,33 +97,30 @@
 		}
 
 		nav ul li a {
-			color: #8E83BB;
+			color: #00225a;
 			text-decoration: none;
 			font-size: 18px;
+			font-weight: 600;
 		}
 
 		nav ul li a:hover {
-			color: red;
+			color: blue;
 		}
 
 		main {
-			border: 1px solid rebeccapurple;
 			width: 100%;
-			height: 2px;
+			height: auto;
 		}
 
 		#sablonlar {
-			border: 1px solid rebeccapurple;
 			width: 100%;
 			height: 600px;
-			margin-top: 50px;
-			background-image: url(img/arka-fon1.webp);
 			background-size: cover;
 		}
 
 		.sablon {
-
-			border-radius: 54px;
+			border: 1px solid black;
+			border-radius: 50px;
 			width: 25%;
 			height: 150px !important;
 			margin-top: 80px;
@@ -160,21 +160,16 @@
 		}
 
 		#button:hover {
-			background-color: rgb(34, 106, 139);
-
-		}
-
-		#button:hover a {
-			color: rgb(0, 0, 0);
+			/*background-color: rgb(34, 106, 139);*/
+			text-decoration: underline;
 
 		}
 
 		.kampanyalar {
 			border: 1px solid rebeccapurple;
 			width: 100%;
-			height: 660px;
+			height: auto;
 			margin-top: 50px;
-			background-color: #BACEE3;
 			display: flex;
 			justify-content: space-around;
 		}
@@ -184,6 +179,7 @@
 			height: 90%;
 			display: flex;
 			flex-direction: column;
+			padding-bottom: 20px;
 		}
 
 
@@ -268,11 +264,11 @@
 		}
 
 		.card-body {
-			border-top: 20px solid blue;
+			border-top: 20px solid #003659;
 		}
 
 		.bigpackage {
-			color: blue;
+			color: #0b99a7;
 			font-size: 15px;
 		}
 
@@ -310,6 +306,20 @@
 		.icon-div {
 			align-items: center;
 			margin-right: 5px;
+		}
+
+		.en-cok-kullanilanlar {
+
+			width: 100%;
+			height: 450px;
+			background-color: #c9dcdc;
+		}
+
+		footer {
+			border: 1px solid rebeccapurple;
+			width: 100%;
+			height: 400px;
+			background-color: black;
 		}
 	</style>
 	<header>
@@ -366,12 +376,12 @@
 		<section id="kampanyalar">
 			<div class="kampanyalar">
 				<div class="kampanya">
-					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
 						<div class="card-body">
 							<div style="display: flex; justify-content: flex-end;">
-								<div class="bubbleButton" style="background-color: blue;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
 									<!---->
-									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="price"><span>₺94<sup>90</sup></span></div>
 									<div class="period fS14" style="order: -1;">Aylık</div>
 									<!---->
 								</div>
@@ -386,20 +396,20 @@
 									<i class="fa fa-wifi fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+									<b style="font-size: 12px;">24 Mbps'e Kadar Hızlı-Türk Telekom</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
 									<i class="fa fa-tachometer fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">40 GB Kota</b>
+									<b style="font-size: 12px;">Limitsiz</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
@@ -427,7 +437,7 @@
 									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 							<div style="display: flex; justify-content: center;">
 
 								<button type="button" class="btn btn-primary">Başvur</button>
@@ -438,12 +448,12 @@
 					</div>
 				</div>
 				<div class="kampanya">
-					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
 						<div class="card-body">
 							<div style="display: flex; justify-content: flex-end;">
-								<div class="bubbleButton" style="background-color: blue;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
 									<!---->
-									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="price"><span>₺94<sup>90</sup></span></div>
 									<div class="period fS14" style="order: -1;">Aylık</div>
 									<!---->
 								</div>
@@ -458,20 +468,20 @@
 									<i class="fa fa-wifi fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+									<b style="font-size: 12px;">24 Mbps'e Kadar Hızlı-Türk Telekom</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
 									<i class="fa fa-tachometer fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">40 GB Kota</b>
+									<b style="font-size: 12px;">Limitsiz</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
@@ -499,7 +509,7 @@
 									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 							<div style="display: flex; justify-content: center;">
 
 								<button type="button" class="btn btn-primary">Başvur</button>
@@ -510,12 +520,12 @@
 					</div>
 				</div>
 				<div class="kampanya">
-					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
 						<div class="card-body">
 							<div style="display: flex; justify-content: flex-end;">
-								<div class="bubbleButton" style="background-color: blue;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
 									<!---->
-									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="price"><span>₺94<sup>90</sup></span></div>
 									<div class="period fS14" style="order: -1;">Aylık</div>
 									<!---->
 								</div>
@@ -530,20 +540,20 @@
 									<i class="fa fa-wifi fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+									<b style="font-size: 12px;">24 Mbps'e Kadar Hızlı-Türk Telekom</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
 									<i class="fa fa-tachometer fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">40 GB Kota</b>
+									<b style="font-size: 12px;">Limitsiz</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
@@ -571,7 +581,7 @@
 									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 							<div style="display: flex; justify-content: center;">
 
 								<button type="button" class="btn btn-primary">Başvur</button>
@@ -582,12 +592,12 @@
 					</div>
 				</div>
 				<div class="kampanya">
-					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
 						<div class="card-body">
 							<div style="display: flex; justify-content: flex-end;">
-								<div class="bubbleButton" style="background-color: blue;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
 									<!---->
-									<div class="price"><span>₺44<sup>90</sup></span></div>
+									<div class="price"><span>₺94<sup>90</sup></span></div>
 									<div class="period fS14" style="order: -1;">Aylık</div>
 									<!---->
 								</div>
@@ -602,20 +612,20 @@
 									<i class="fa fa-wifi fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+									<b style="font-size: 12px;">24 Mbps'e Kadar Hızlı-Türk Telekom</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
 									<i class="fa fa-tachometer fa-lg"></i>
 								</div>
 								<div class="media-body">
-									<b style="font-size: 12px;">40 GB Kota</b>
+									<b style="font-size: 12px;">Limitsiz</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 
 							<div class="media kampanya-item-detail">
 								<div class="icon-div">
@@ -643,7 +653,7 @@
 									<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
 								</div>
 							</div>
-							<hr style="border-bottom: 1px solid blue;">
+							<hr style="border-bottom: 1px solid #003659;">
 							<div style="display: flex; justify-content: center;">
 
 								<button type="button" class="btn btn-primary">Başvur</button>
@@ -657,9 +667,76 @@
 			</div>
 		</section>
 		<div class="form-div"
-			style="display: flex; justify-content: space-around; background-color: #c9dcdc; height: 500px;">
-			<div id="secilenKampanya" style="width: 45%;">
+			style="display: flex; justify-content: space-around; background-color: #c9dcdc; height: 600px;">
+			<div id="secilenKampanya" style="width: 45%; display: flex; justify-content: center;">
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 90%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);"></div>
+								<!---->
+								<div class="price"><span>₺44<sup>90</sup></span></div>
+								<div class="period fS14" style="order: -1;">Aylık</div>
+								<!---->
+							</div>
+						</div>
+						<div class="bigpackage">
+							<h2>D-SmartNet</h2>
+							<p>Fiber İnternet</p>
+						</div>
 
+						<div class="media kampanya-item-detail">
+							<div class="icon-div">
+								<i class="fa fa-wifi fa-lg"></i>
+							</div>
+							<div class="media-body">
+								<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı-Türk Telekom</b>
+							</div>
+						</div>
+						<hr style="border-bottom: 1px solid blue;">
+
+						<div class="media kampanya-item-detail">
+							<div class="icon-div">
+								<i class="fa fa-tachometer fa-lg"></i>
+							</div>
+							<div class="media-body">
+								<b style="font-size: 12px;">40 GB Kota</b>
+							</div>
+						</div>
+						<hr style="border-bottom: 1px solid blue;">
+
+						<div class="media kampanya-item-detail">
+							<div class="icon-div">
+								<i class="fa fa-gift fa-lg"></i>
+							</div>
+							<div class="media-body">
+								<b style="font-size: 12px;">Aktivasyon Ücreti Hediye</b>
+							</div>
+						</div>
+
+						<div class="media kampanya-item-detail">
+							<div class="icon-div">
+								<i class="fa fa-gift fa-lg"></i>
+							</div>
+							<div class="media-body">
+								<b style="font-size:12px;">Evde Kurulum Hediye</b>
+							</div>
+						</div>
+
+						<div class="media kampanya-item-detail">
+							<div class="icon-div">
+								<i class="fa fa-gift fa-lg"></i>
+							</div>
+							<div class="media-body">
+								<b style="font-size: 12px;">Yalın İnternet Ücreti Dahil</b>
+							</div>
+						</div>
+						<hr style="border-bottom: 1px solid blue;">
+
+						<!--div></div-->
+
+					</div>
+				</div>
 			</div>
 			<div style="width: 45%;">
 				<form class="basvuru-form">
@@ -710,9 +787,16 @@
 		<div class="en-cok-kullanilanlar">
 
 		</div>
+
 	</main>
+	<footer style="display: flex; align-items: center;">
+		<div style="color: blue;"></div>
+		<div style="color: brown;"></div>
+		<div></div>
+		<div></div>
 
 
+	</footer>
 </body>
 
 </html>
