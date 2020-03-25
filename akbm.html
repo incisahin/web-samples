@@ -11,7 +11,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./forms/js/index.js"></script>
-
+	<script src="kod.js"></script>
 
 </head>
 
@@ -43,32 +43,39 @@
 
 			<div class="sablon">
 				<img class="yanyana" src="./img/vodafone/logo.png">
-				<div class="yanyana" id="button"><a href="#kampanyalar">İncele</a></div>
+				<div class="yanyana" id="button" onclick="gosterVeYonlendir('vodafone-kampanya')">
+					<a href="#vodafone-kampanya">İncele</a>
+				</div>
 			</div>
 			<div class="sablon">
 				<img class="yanyana" src="./img/ttnet/logo.jpg">
-				<div class="yanyana" id="button"><a href="#kampanyalar">İncele</a></div>
+				<div class="yanyana" id="button" onclick="gosterVeYonlendir('TT-kampanya')">
+					<a href="#TT-kampanya">İncele</a>
+				</div>
 			</div>
 			<div class="sablon">
 				<img class="yanyana" src="./img/d-smart/logo.jpg">
-				<div class="yanyana" id="button"><a href="#kampanyalar">İncele</a></div>
+				<div class="yanyana" id="button" onclick="gosterVeYonlendir('dsmart-kampanya')">
+					<a href="#dsmart-kampanya">İncele</a>
+				</div>
 			</div>
 			<div class="sablon">
 				<img class="yanyana" src="./img/turkcell/logo.png">
-				<div class="yanyana" id="button"><a href="#kampanyalar">İncele</a></div>
+				<div class="yanyana" id="button" onclick="gosterVeYonlendir('turkcell-kampanya')">
+					<a href="#turkcell-kampanya">İncele</a>
+				</div>
 			</div>
 			<div class="sablon">
 				<img class="yanyana" src="./img/millenicom/logo.png">
-				<div class="yanyana" id="button"><a href="#kampanyalar">İncele</a></div>
+				<div class="yanyana" id="button" onclick="gosterVeYonlendir('millenicom-kampanya')">
+					<a href="#millenicom-kampanya">İncele</a>
+				</div>
 			</div>
-			<div class="sablon">
-				<img class="yanyana" src="./img/ttnet/logo.jpg">
-				<div class="yanyana" id="button"><a href="#kampanyalar">İncele</a></div>
-			</div>
+
 
 		</div>
 
-		<section id="kampanyalar">
+		<section id="dsmart-kampanya" style="display: none;">
 			<div class="kampanyalar">
 				<div class="kampanya">
 					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
@@ -361,6 +368,1260 @@
 
 			</div>
 		</section>
+
+		<section id="millenicom-kampanya" style="display: none;">
+			<div class="kampanyalar">
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺79<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Millenicom</h2>
+								<p>Özgürüm İnternet Kampanyası</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">35 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Gerçek Sınırsız</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Taahhütsüz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Ücretsiz Aktivasyon</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yeni Müşteriler İçin 30TL x 4Ay,Diğer Operatörlerden
+										Geçiş Yapan Müşteriler İçin Ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺99<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Millenicom</h2>
+								<p>Prestij İnternet Kampanyası</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">100 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Gerçek Sınırsız</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Taahhütsüz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">"Ücretsiz Aktivasyon"</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yeni Müşteriler İçin 30TL x 4Ay,Diğer Operatörlerden
+										Geçiş Yapan Müşteriler İçin Ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺74<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Millenicom</h2>
+								<p>Fiber İnternet Kampanyası</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">24 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Gerçek Sınırsız</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">24 Ay Taahhütsüz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Superonline Alt Yapısı</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Yeni Müşteriler İçin 30TL x 4Ay,Diğer Operatörlerden
+										Geçiş Yapan Müşteriler İçin Ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺57<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Millenicom</h2>
+								<p>Hesaplı İnternet Kampanyası</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">4 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">40 GB Kota</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">24 At Taahhütsüz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Ücretsiz Aktivasyon</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Ücretsiz Kurulum</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="turkcell-kampanya" style="display: none;">
+			<div class="kampanyalar">
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺79<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık <sup>12 Ay</sup></div>
+
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Turkcell</h2>
+								<p>Superonline Fiber Paketler</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 20px;">-</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+
+								<div class="media-body">
+									<b style="font-size: 12px;">15 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Modem Ücreti Dahildir</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;"> Kampanya kapsamındaki aylık indirimli tarife bedeline
+										tüm vergiler dahildir</b>
+								</div>
+							</div>
+
+
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺89<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık <sup>İlk 6 Ay</sup></div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Turkcell</h2>
+								<p>Superonline Fiber Paketler</p>
+							</div>
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 12px;">Kalan 6 Ay 99.90 TL</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">50 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Modem Ücreti Dahildir</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;"> Kampanya kapsamındaki aylık indirimli tarife bedeline
+										tüm vergiler dahildir</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺99<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık <sup>12 Ay</sup></div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Turkcell</h2>
+								<p>Superonline ADSL Paketleri</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 20px;">-</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">12 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Modem Ücretsiz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Kurulum Ücretsiz</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺109<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık <sup>12 Ay</sup></div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Turkcell</h2>
+								<p>Superonline ADSL Paketleri</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 20px;">-</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">16 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Modem Hediye</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Kurulum Ücreti</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="vodafone-kampanya" style="display: none;">
+			<div class="kampanyalar">
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺64<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık <sup>İlk 6 Ay</sup></div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Vodafone</h2>
+								<p>Fiber Paketleri</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 12px;">İlk 6 Ay Sonrasında 74.90 Tl</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">16 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Fiyatlar altyapıya göre farklılık gösterebilir</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Ücretsiz kurulum,aylık modem ücreti 6.90 Tl</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Vodafone TV 24 ay ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺144<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Vodafone</h2>
+								<p>Fiber Paketleri</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 12px;">İlk 1 Sene Sonrasında 154.90 Tl</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">100 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Fiyatlar altyapıya göre farklılık gösterebilir</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Ücretsiz kurulum,aylık modem ücreti 6.90 Tl</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Vodafone TV 24 ay Ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺54<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık <sup>İlk 6 Ay</sup></div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Vodafone</h2>
+								<p>ADSL Paketleri</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 12px;">6 Ay Sonrasında 74.90 Tl</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">8 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Fiyatlar altyapıya göre farklılık gösterebilir</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Ücrersiz kurulum,aylık modem ücreti 6.90 Tl</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Vodafone TV 24 ay ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺104<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Vodafonet</h2>
+								<p>ADSL Paketleri</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-money-bill-alt fa-lg"></i>
+								</div>
+
+								<div style="text-align: center;" class="media-body">
+									<b style="font-size: 12px;">1 Sene 124.90 Tl</b>
+								</div>
+							</div>
+
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">50 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Fiyatlar altyapıya göre farklılık gösterebilir</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Ücretsiz kurulum,aylık modem ücreti 6.90 Tl</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Vodafone TV 24 ay ücretsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="TT-kampanya" style="display: none;">
+			<div class="kampanyalar">
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺74<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Türk-Telekom</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">8 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">İlk Ay Ücretsiz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Herşey Dahil Sabit Fiyat</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;"> Ücretsiz Kurulum</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺84<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Türk-Telekom</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">12 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">İlk Ay Ücretsiz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Herşey Dahil Sabit Fiyat</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Ücretsiz Kurulum</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺104<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Türk-Telekom</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">24 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">İlk Ay Ücreti</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size:12px;">Herşey Dahil Sabit Fiyat</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Ücretsiz Kurulum</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+				<div class="kampanya">
+					<div class="card" style="width: 18rem; height: 100%; margin-top: 25px;">
+						<div class="card-body">
+							<div style="display: flex; justify-content: flex-end;">
+								<div class="bubbleButton" style="background: linear-gradient(#003659,#0b99a7);">
+									<!---->
+									<div class="price"><span>₺117<sup>90</sup></span></div>
+									<div class="period fS14" style="order: -1;">Aylık</div>
+									<!---->
+								</div>
+							</div>
+							<div class="bigpackage">
+								<h2>Türk-Telekom</h2>
+								<p>Fiber İnternet</p>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-wifi fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">50 Mbps'e Kadar Hızlı</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-tachometer fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Limitsiz</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">İlk Ay Ücretsiz</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Herşey Dahil Sabit Fiyat</b>
+								</div>
+							</div>
+
+							<div class="media kampanya-item-detail">
+								<div class="icon-div">
+									<i class="fa fa-gift fa-lg"></i>
+								</div>
+								<div class="media-body">
+									<b style="font-size: 12px;">Ücretsiz Kurulum</b>
+								</div>
+							</div>
+							<hr style="border-bottom: 1px solid #003659;">
+							<div style="display: flex; justify-content: center;">
+
+								<button type="button" class="btn btn-primary">Başvur</button>
+							</div>
+							<!--div></div-->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
 		<div class="form-div"
 			style="display: flex; justify-content: space-around; background-color: #c9dcdc; height: 600px;">
 			<div id="secilenKampanya" style="width: 45%; display: flex; justify-content: center;">
