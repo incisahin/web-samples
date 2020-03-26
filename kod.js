@@ -14,3 +14,11 @@ function butunSectionKapat() {
     document.getElementById('millenicom-kampanya').style.display = "none";
 
 }
+
+function basvuruFormunaGit() {
+
+    window.location.href = "#form-basvuru";
+}
+
+
+
