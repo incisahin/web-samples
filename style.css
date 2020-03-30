@@ -294,9 +294,16 @@
 		.en-cok-kullanilanlar {
 
 			width: 100%;
-			height: 450px;
+			height: auto;
 			background-color: #c9dcdc;
+		
 		}
+
+        .en-cok-kullanilanlar h1{
+			text-align: center;
+			color: #014363;
+		}
+
 
 		footer {
 			
