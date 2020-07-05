@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lamba_örnek</title>
+</head>
+<body>
+	<script>
+		function isikAcKapat(){
+var index =  document.getElementById("lamba").src.indexOf("lamba-of");
+		
+			if (index < 0) {
+			document.getElementById('lamba').src='./img/lamba-of.png';
+		} else {
+			document.getElementById('lamba').src='./img/lamba-on.png'
+		}
+		}
+	</script>
+	
+	<!--button onclick="document.getElementById('lamba').src='./img/lamba-of.png'">Lambayı Kapat</button-->
+
+<img id="lamba" onclick="isikAcKapat()" src="img/lamba-of.png" style="width:100px">
+
+<!--button onclick="document.getElementById('lamba').src='./img/lamba-on.png'">Lambayı Aç</button-->
+
+
+
+</body>
+</html>

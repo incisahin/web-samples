@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Title -->
+	<title>Bulut Santral | Sanal Santral</title>
+
+	<!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.ico">
+    <meta name="theme-color" content="#1c66de">
+	
+	<!-- jQuery -->
+	<script src="//library.akbimbilgisayar.com/bayiscripti/vendors/jquery/dist/jquery.min.js"></script>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader"></div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- Header Area Start -->
+	<header class="header-area">
+		<!-- Top Header Area Start -->
+		<div class="top-header-area">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-6">
+						<div class="top-header-content">
+							<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> <span>Müşteri Hizmetleri : 0850 420 44 11</span></a>
+							<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <span>Email: info@akbimbilgisayar.com</span></a>
+						</div>
+					</div>
+
+					<div class="col-6">
+						<div class="top-header-content">
+							<!-- Login -->
+							<a href="./giris-yap"><i class="fa fa-lock" aria-hidden="true"></i> <span>Giriş Yap</span></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- Top Header Area End -->
+
+		<!-- Main Header Start -->
+		<div class="main-header-area">
+			<div class="classy-nav-container breakpoint-off">
+				<div class="container">
+					<!-- Classy Menu -->
+					<nav class="classy-navbar justify-content-between" id="hamiNav">
+
+						<!-- Logo -->
+						<a class="nav-brand" href="./anasayfa"><img src="./img/core-img/logo.png" alt=""></a>
+
+						<!-- Navbar Toggler -->
+						<div class="classy-navbar-toggler">
+							<span class="navbarToggler"><span></span><span></span><span></span></span>
+						</div>
+
+						<!-- Menu -->
+						<div class="classy-menu">
+							<!-- Menu Close Button -->
+							<div class="classycloseIcon">
+								<div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+							</div>
+							<!-- Nav Start -->
+							<div class="classynav">
+								<ul id="nav">
+									<li><a href="./anasayfa">Anasayfa</a></li>
+									<li><a href="./tarifeler">Tarifeler</a></li>   
+									<li><a href="./iletisim">İletişim</a></li> 
+								</ul>
+							</div>
+							<!-- Nav End -->
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header Area End --> 
+
+	<!-- Error Content Area Start -->
+	<section class="hami-error-area text-center section-padding-100-0 mb-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<img src="img/bg-img/404.png" alt="">
+					<h2>Opps! Bu sayfa bulunamadı!</h2>
+					<p>Üzgünüz, aradığınız sayfa mevcut değil, silinmiş veya taşınmış olabilir</p>
+					<a href="./anasayfa" class="btn hami-btn mt-30">Anasayfaya Git</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Support Area Start -->
+	<section class="hami-support-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="support-text">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Support Pattern -->
+		<div class="support-pattern" style="background-image: url(img/core-img/support-pattern.png);"></div>
+	</section>
+	<!-- Support Area End -->
+
+
+	<!-- Footer Area Start -->
+	<footer class="footer-area section-padding-80-0">
+
+		<!-- Main Footer Area -->
+		<div class="main-footer-area">
+			<div class="container">
+				<div class="row justify-content-between">
+
+					<!-- Single Footer Widget Area -->
+					<div class="col-6 col-sm-4 col-lg-3">
+						<div class="single-footer-widget mb-80">
+							<!-- Widget Title -->
+							<h5 class="widget-title">İç Bağlantılar</h5>
+
+							<!-- Footer Nav -->
+							<ul class="footer-nav">
+								<li><a href="./anasayfa">Anasayfa</a></li>
+								<li><a href="./tarifeler">Tarifeler</a></li>   
+								<li><a href="./iletisim">İletişim</a></li> 
+							</ul>
+						</div>
+					</div>
+
+					<!-- Single Footer Widget Area -->
+					<div class="col-6 col-sm-4 col-lg-3">
+						<div class="single-footer-widget mb-80">
+							<!-- Widget Title -->
+							<h5 class="widget-title">Dış Bağlantılar</h5>
+
+							<!-- Footer Nav -->
+							<ul class="footer-nav">
+								<li><a href="https://www.akbimbilgisayar.com/">Akbim Bilgisayar</a></li>
+								<li><a href="https://bayi.akbimbilgisayar.com/">Akbim Bayi</a></li>
+								<li><a href="https://efixfatura.com.tr/">Efix Fatura</a></li>
+								<li><a href="http://sms.akbimbilgisayar.com/">Akbim Sms</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Single Footer Widget Area -->
+					<div class="col-12 col-sm-8 col-lg-6">
+						<div class="single-footer-widget mb-80">
+							<!-- Widget Title -->
+							<h5 class="widget-title">E-posta Bülteni</h5>
+
+							<p>Yeni haberlerden ilk siz haberdar olmak istiyorsanız e-posta adresinizi kaydedin.</p>
+
+							<!-- Newsletter Form -->
+							<form action="index.html" class="nl-form">
+								<input type="email" class="form-control" placeholder="Mail Adresiniz">
+								<button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+							</form>
+
+							<!-- Social Info -->
+							<div class="social-info">
+								<a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+								<a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="#" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Bottom Footer Area -->
+		<div class="bottom-footer-area bg-gray">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-12">
+						<!-- Copywrite Text -->
+						<div class="copywrite-text">
+							<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tüm Hakları Saklıdır. | Akbim Bilgisayar & Elfe İletişim İşbirliği İle Yürütülmektedir.
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer Area End -->
+
+	<!-- **** All JS Files ***** -->
+	<!-- Popper -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- All Plugins -->
+	<script src="js/hami.bundle.js"></script>
+	<!-- Active -->
+	<script src="js/default-assets/active.js"></script>
+	<!-- jquery.inputmask -->
+	<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.60/inputmask/jquery.inputmask.js"></script>
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5dd3ffd043be710e1d1e1058/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+
+</body>
+
+</html>

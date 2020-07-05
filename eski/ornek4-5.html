@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Akbim Yazılım</title>
+</head>
+<body>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			margin:0;
+			padding:0; 
+		}
+		header{
+			
+			width: 100%;
+			height: 150px;
+			background-color: #BACEE3;
+			padding-top: 29px;
+		}
+		#hizala{
+			
+			width: 75%;
+			height: auto;
+			margin: auto;
+			margin-top: 25px;
+		}
+		#solkisim{
+			
+			width: 30%;
+			height:100px;
+			float: left;
+		}
+		#solkisim a{
+			color: #8E83BB;
+			text-decoration: none;
+			font-size: 20px;
+
+		}
+		#solkisim h2 {
+			padding: 0;
+			margin: 0;
+
+		}
+		#solkisim p{
+			color: #8E83BB;
+			padding: 0;
+			margin:0;
+			font-size: 16px;
+			font-style: italic;
+		}
+
+				#sagkisim{
+			
+			width: 70%;
+			height: 100px;
+			float: left;
+		}
+		nav{
+			float: right;
+			padding: 8px;
+		}
+		nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+		}
+		nav ul li{
+			display: inline-block;
+			background-color: #BACEE3;
+			padding: 25px 15px;
+			float: left;
+		}
+		nav ul li a{
+			color: #8E83BB;
+			text-decoration: none;
+			font-size: 18px;
+		}
+		nav ul li a:hover{
+			color: red;
+			
+		}
+		main{
+			
+			width: 100%;
+			height: auto;
+		}
+		#hizalatwo{
+			
+			width: 90%;
+			height: auto;
+			margin: auto;
+			padding: 25px 0;
+		}
+		#sectionone{
+			border: 1px solid black;
+			width: 100%;
+			height: 450px;
+			background-color:#BACEE3;
+			padding-top: 100px; 
+			display: flex;
+    		justify-content: center;
+   			text-align: center;
+		}
+
+		#sectionone #logo {
+			width: 15%; 
+			height: auto;
+			 display: flex; 
+			 flex-direction: column;
+			  align-items: center;
+		}
+		
+		#sectiontwo{
+			
+			width: 100%;
+			height: 400px;
+			padding-top: 35px;
+			
+		}
+		
+		#box{
+			border: 1px solid #ccc2c2;
+			width: 30%;
+			height: 300px;
+			display: inline-block;
+			float: left;
+			margin-right: 50px;
+			
+		}
+		.cerceve{
+			border: 2px solid  #BACEE3; 
+			width: 100%;
+			height: 180px;
+			padding: 2px;
+			display: inline-block;
+		}
+		.resim{
+			background-color: #BACEE3;
+			width: 100%;
+			height: 172px; 
+			padding-top: 60px;
+		}
+		.resim h2{
+			color: #8E83BB;
+			font-size: 32px;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+		}
+		#box h4{
+			padding: 0;
+			margin: 0;
+			margin-top: 12px;
+		}
+		#box p{
+			color: black;
+		}
+		.linkayar{
+			float: right;
+			color: red;
+		}
+		.yanyana{
+			display: block;
+		}
+		#sectionthere{
+			
+			width: 100%;
+			height: 300px;
+		}
+		#partone{
+			border: 1px solid #ccc2c2;
+			width: 50%;
+			height: 300px;
+			float: left;
+		}
+		#partone p{
+			font-size: 20px;
+			line-height: 25px;
+		}
+		#parttwo{ 
+			border: 2px solid  #BACEE3; 
+			width: 50%;
+			height: 300px;
+			float: left;
+			padding: 2px;
+
+		 }
+		 #resimtwo{
+		 	background-color: #BACEE3; 
+		 	width: 100%;
+		 	height: 292px;
+		 	padding-top: 110px;
+		 }
+		 #resimtwo h2{
+		 	padding: 0;
+		 	margin: 0;
+		 	text-align: center;
+		 	color: #8E83BB;
+		 	font-size: 35px;
+		 }
+		 footer{
+		 	border: 1px solid black;
+		 	width: 100%;
+		 	height: 300px;
+		 	background-color: #ffffff; 
+		 }
+		 #part{
+		 	border: 1px solid #9e9e9e;
+		 	width: 33%;
+		 	height: 200px;
+		 	float: left;
+		 }
+		 #part h3{
+		 	color: black;
+
+		 }
+		 #part ul{
+		 	margin: 0;
+		 	padding: 0;
+		 	list-style-type: none;
+		 }
+		 #part li{
+		 	margin-top: 6px;
+		 	color:  #9c27b0;
+		 }
+		 #part a{
+		 	color:  #9c27b0;
+		 	text-decoration: none;
+		 	font-size: 18px;
+		 }
+		 #iconone{
+		 	border: 1px solid black;
+		 	width: 70px;
+		 	height: 70px;
+		 	float: left;
+		 	margin-right: 15px;
+		 	background-image: url('img/facebook.png');
+		 	background-size: cover; 
+		 }
+		  #icontwo{
+		 	border: 1px solid black;
+		 	width: 70px;
+		 	height: 70px;
+		 	float: left;
+		 	background-image: url('img/instagram.jpg');
+		 	background-size: cover;
+		 	} 
+
+		
+		
+	</style>
+	<header>
+		<div id="hizala">
+			<div id="solkisim">
+				<a href="a"><h2>Akbim Yazılım</h2></a>
+				<p>En Hızlı Kurulum</p>
+			</div>
+			<div id="sagkisim">
+				<nav>
+					<ul>
+						<li><a href="a">Anasayfa</a></li>
+						<li><a href="a">Kampanyalar</a></li>
+						<li><a href="a">İletişim</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+		</div>
+		
+	</header>
+	<main>
+		<div id="hizalatwo">
+			<section id="sectionone">
+				<div id="logo">
+					<div>
+						<img style="width: 100%" src="./img/vodafone.jpg" alt="vodafone">
+					</div>
+					<div>
+						<button type="button" style="background-color: red;">Hemen Başvur!</button>
+					</div>
+				</div>
+				<div id="logo">
+					<div>
+						<img style="width: 100%" src="./img/vodafone.jpg" alt="vodafone">
+					</div>
+					<div>
+						<button type="button" style="background-color: red;">Hemen Başvur!</button>
+					</div>
+				</div>
+				<div id="logo">
+					<div>
+						<img style="width: 100%" src="./img/vodafone.jpg" alt="vodafone">
+					</div>
+					<div>
+						<button type="button" style="background-color: red;">Hemen Başvur!</button>
+					</div>
+				</div>
+				<div id="logo">
+					<div>
+						<img style="width: 100%" src="./img/vodafone.jpg" alt="vodafone">
+					</div>
+					<div>
+						<button type="button" style="background-color: red;">Hemen Başvur!</button>
+					</div>
+				</div>
+				<div id="logo">
+					<div>
+						<img style="width: 100%" src="./img/vodafone.jpg" alt="vodafone">
+					</div>
+					<div>
+						<button type="button" style="background-color: red;">Hemen Başvur!</button>
+					</div>
+				</div>
+				<div id="logo">
+					<div>
+						<img style="width: 100%" src="./img/vodafone.jpg" alt="vodafone">
+					</div>
+					<div>
+						<button type="button" style="background-color: red;">Hemen Başvur!</button>
+					</div>
+				</div>
+				
+				
+				
+			</section>
+			<section id="sectiontwo">
+				<div id="box">
+					<div class="cerceve">
+						<div class="yanyana resim"><h2>Turk Telekom</h2></div>
+						<h4 class="yanyana">En çok tercih edilenler</h4>
+						<p class="yanyana">İhtiyacınıza göre seçebileceğiniz,avantajlı kampanyaları buradan görüntüleyebilirsiniz.</p>
+						<a href="#" class="yanyana linkayar">Devamını Oku...</a>
+					</div>
+				</div>
+
+				<div id="box">
+					<div class="cerceve">
+						<div class="yanyana resim"><h2>D-smart</h2></div>
+						<h4 class="yanyana">En çok tercih edilenler</h4>
+						<p class="yanyana">İhtiyacınıza göre seçebileceğiniz,avantajlı kampanyaları buradan görüntüleyebilirsiniz.</p>
+						<a href="#" class="yanyana linkayar">Devamını Oku...</a>
+					</div>
+				</div>
+				<div id="box" style="float: right;margin: 0;">
+					<div class="cerceve">
+						<div class="yanyana resim"><h2>Turkcell Fiber</h2></div>
+						<h4 class="yanyana">En çok tercih edilenler</h4>
+						<p class="yanyana">İhtiyacınıza göre seçebileceğiniz,avantajlı kampanyaları buradan görüntüleyebilirsiniz.</p>
+						<a href="#" class="yanyana linkayar">Devamını Oku...</a>
+					</div>
+				</div>
+				
+				
+				
+			</section>
+			<section id="sectionthere">
+					<div id="partone">
+						<h2>Akbim sosyal sorumluluk projeleri</h2>
+						<p>Günümüz dünyasında şirketlerin sosyal sorumluluk faaliyetleri, enz operasyonları kadar önem arz etmektedir. Akbim bu konudaki hassasiyetini Türkiye'nin toplumsal ve sosyal çerçevesini etkileyen hemen her alanda göstermektedir.</p>
+						<a href="#" class="linkayar">Devamını oku...</a>
+					</div>
+					<div id="parttwo">
+						<div id="resimtwo"><h2>Tarifeler</h2></div>
+					</div>
+				</section>
+		</div>
+	</main>
+
+    <footer>
+    	<div id="hizala">
+    		<div id="part">
+    			<h3>Sayfalar</h3>
+    			<ul>
+    				<li><a href="#">Menu1</a></li>
+    				<li><a href="#">Menu2</a></li>
+    				<li><a href="#">Menu3</a></li>
+    				<li><a href="#">Menu4</a></li>
+    			</ul>
+    		</div>
+    		<div id="part">
+    			<h3>İletişim</h3>
+    			<ul>
+    				<li>Akbim Yazılım</li>
+    				<li>Cep</li>
+    				<li>Ev</li>
+    				<li>E-mail</li>
+    				<li>Fax</li>
+    			</ul>
+    		</div>
+    		<div id="part">
+    			<h3>Sosyal Medya</h3>
+    			<div id="iconone"></div>
+    			<div id="icontwo"></div>
+    		</div>
+    	</div>
+
+    </footer>
+</body>
+</html>
