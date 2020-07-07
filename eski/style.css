@@ -308,7 +308,7 @@
 		footer {
 			
 			width: 100%;
-            height: 400px;
+            height: auto;
            /*background-color: #02122c;*/
             display: flex; 
             align-items: center; 
@@ -333,4 +333,21 @@
 	
 	sup{
 		color: white !important;
+	}
+
+	.footer-logo p{
+		color: #012f5f;
+    font-size: 20px;
+    margin-bottom: 48px;
+    font-weight: 500;
+    
+
+	}
+	.create-padding{
+		padding-top:0px !important;
+		padding-bottom:0px  !important;
+	}
+	.section-tittle h2{
+		font-size:40px !important;
+		margin-bottom:40px !important;
 	}

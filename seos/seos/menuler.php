@@ -15,19 +15,12 @@
                              <ul id="navigation">
                                  <li><a href="index.php"></a></li>
                                  <li><a href="about.php"></a></li>
-                                 <li><a href="services.php">Anasayfa</a></li>
-                                 <li><a href="contact.php">Kampanyalar</a></li>
-                                 <li><a href="blog.php">İletişim</a>
-                                     <ul class="submenu">
-                                         <li><a href="blog.php">Blog</a></li>
-                                         <li><a href="single-blog.php">Blog Details</a></li>
-                                     </ul>
+                                 <li><a href="index.php">Anasayfa</a></li>
+                                 <li><a href="kampanyalar.php">Kampanyalar</a></li>
+                                 <li><a href="iletisim.php">İletişim</a>
+
                                  </li>
-                                 <li><a href="#"></a>
-                                     <ul class="submenu">
-                                         <li><a href="elements.php">Element</a></li>
-                                     </ul>
-                                 </li>
+
                              </ul>
                          </nav>
                      </div>
