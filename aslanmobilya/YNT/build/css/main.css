@@ -1,0 +1,9 @@
+.img-250px{
+    width: 100%;
+    height: 250px!important;
+}
+.img-250px img{
+    width: 100%;
+    height: 250px!important;
+    object-fit: contain;
+}

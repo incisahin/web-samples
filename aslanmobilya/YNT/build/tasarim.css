@@ -1,0 +1,29 @@
+.nav-tabs {
+	border-bottom: 1px solid #ddd;
+}
+.nav-tabs > hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.nav-tabs > li > a {
+	background-color: #cadaff;
+	border-radius: 4px;
+	min-height: 42px;
+	margin-right: 5px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	background-color: #a1beff;
+}
+	
+.nav-tabs > a {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	min-height: 42px;
+}
+.nav-tabs >  a:hover {
+	border-color: #eee #eee #ddd;
+}

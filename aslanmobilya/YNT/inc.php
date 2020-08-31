@@ -1,0 +1,7 @@
+<?php 
+define("akbim", true);
+
+
+
+
+?>
